@@ -30,5 +30,3 @@ chmod +x ~/.config/openbox/autostart
 feh --bg-scale ~/pixmaps/angel.jpg
 
 cat done.txt
-
-echo "Done"
