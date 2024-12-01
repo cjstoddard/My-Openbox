@@ -18,7 +18,8 @@ sudo chown root:root /usr/share/backgrounds/angel.jpg
 systemctl --user --now enable wireplumber.service
 mkdir -p ~/.config/openbox ~/.config/rofi ~/pixmaps
 cp /etc/xdg/openbox/* ~/.config/openbox/
-cp rc.xml autostart ~/.config/openbox/
+cp rc.xml ~/.config/openbox/
+cp autostart ~/.config/openbox/
 cp x.xinitrc ~/.xinitrc
 cp config.rasi ~/.config/rofi/
 cp angel.jpg ~/pixmaps/
