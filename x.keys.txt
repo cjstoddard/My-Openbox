@@ -1,0 +1,18 @@
+-------------------------------------
+Keybindings
+-------------------------------------
+ROX-filer     windows-f(ile manager)
+Rofi          windows-m(enu)
+Firefox-ESR   windows-w(eb)
+Tilix         windows-t(erminal)
+Thunderbird   windows-e(mail)
+Audacious     windows-a(udio)
+VLC           windows-v(ideo)
+
+Print Screen  windows-prtscn
+Lock Screen   windows-l
+
+Switch Desktops;
+  ctrl-alt-right
+  ctrl-alt-left
+-------------------------------------

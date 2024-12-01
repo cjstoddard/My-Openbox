@@ -1,0 +1,21 @@
+----------------------------------------------------
+Conky may not be showing your networking infomation.
+If this is the case, run;
+
+	ip addr
+
+Make note of your network device. Edit .conkyrc with nano;
+
+	nano .conkyrd
+
+and look for this section;
+
+    $hr
+    ${color grey}Networking:
+    IP Address:$color ${addr enp3s0}
+    Up:$color ${upspeed enp3s0} ${color grey} - Down:$color ${downspeed enp3s0}
+
+My network device is enp3s0, you will need replace my network device
+with your network device.
+----------------------------------------------------
+

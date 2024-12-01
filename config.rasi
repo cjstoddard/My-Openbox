@@ -1,0 +1,10 @@
+configuration{
+    display-drun: "Applications:";
+    display-window: "Windows:";
+    font: "JetBrainsMono Nerd Font Medium 10";
+    modi: ["drun", "window", "run"];
+    icon-theme: "Papirus";
+    show-icons: true;
+}
+
+@theme "/usr/share/rofi/themes/dmenu.rasi"
