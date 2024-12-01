@@ -4,9 +4,13 @@ sudo apt install xorg xbacklight xbindkeys xvkbd xinit xinput xserver-xorg-input
 hsetroot i3lock libnotify-bin libxcb-xinerama0 lxappearance lximage-qt menu picom rofi scrot tint2 volumeicon-alsa \
 xfce4-power-manager alsa-utils fonts-dejavu fonts-firacode fonts-font-awesome fonts-liberation2 fonts-jetbrains-mono \
 gtk2-engines-murrine gtk2-engines-pixbuf network-manager network-manager-gnome papirus-icon-theme pavucontrol pipewire-audio \
-qt5-style-plugins rox-filer conky -y
+qt5-style-plugins rox-filer conky lightdm -y
 
-sudo apt install firefox-esr audacious thunderbird vlc emacs abiword gnumeric atril pluma mate-calc tilix inkscape lightdm -y
+## Please review the next line. These are the applications I use regularly or reasonable replacements.
+## For instance, my prefernce for terminal software Tilix, if you prefer a different terminal, by all
+## means replace it. If you don't like emacs, install neovim, whatever works for you.
+
+sudo apt install firefox-esr audacious thunderbird vlc emacs abiword gnumeric atril pluma mate-calc tilix inkscape -y
 
 sudo systemctl enable lightdm
 sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
