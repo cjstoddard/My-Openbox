@@ -26,6 +26,7 @@ cp angel.jpg ~/pixmaps/
 feh --bg-scale ~/pixmaps/angel.jpg
 cp x.conkyrc ~/.conkyrc
 cp x.keys.txt ~/.keys.txt
+cp x.i3lock.png ~/.i3lock.png
 
 cat done.txt
 
