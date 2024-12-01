@@ -1,12 +1,12 @@
 ----------------------------------------------------
-Conky may not be showing your networking infomation.
+Conky may not be showing your networking information.
 If this is the case, run;
 
 	ip addr
 
 Make note of your network device. Edit .conkyrc with nano;
 
-	nano .conkyrd
+	nano .conkyrc
 
 and look for this section;
 
