@@ -2,7 +2,7 @@
 set -e
 sudo apt install xorg xbacklight xbindkeys xvkbd xinit xinput xserver-xorg-input-all xterm openbox obconf dunst dbus-x11 feh \
 hsetroot i3lock libnotify-bin libxcb-xinerama0 lxappearance lximage-qt menu picom rofi scrot tint2 volumeicon-alsa \
-xfce4-power-manager alsa-utils fonts-dejavu fonts-firacode fonts-font-awesome fonts-liberation2 fonts-ubuntu fonts-jetbrains-mono \
+xfce4-power-manager alsa-utils fonts-dejavu fonts-firacode fonts-font-awesome fonts-liberation2 fonts-jetbrains-mono \
 gtk2-engines-murrine gtk2-engines-pixbuf network-manager network-manager-gnome papirus-icon-theme pavucontrol pipewire-audio \
 qt5-style-plugins rox-filer conky -y
 
