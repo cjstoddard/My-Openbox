@@ -20,5 +20,5 @@ If all you have is a basic install of Debian 12, you will need to run the follow
 
     ./install.sh
 
-If all goes well, you should beable to reboot the system and have everything just work.
+If all goes well, you should bea ble to reboot the system and have everything just work.
 
