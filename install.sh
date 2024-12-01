@@ -15,18 +15,18 @@ sudo mkdir /usr/share/backgrounds
 sudo cp angel.jpg /usr/share/backgrounds/
 sudo chown root:root /usr/share/backgrounds/angel.jpg
 
-mkdir -p ~/.config/openbox
+systemctl --user --now enable wireplumber.service
+mkdir -p ~/.config/openbox ~/.config/rofi ~/pixmaps
 cp /etc/xdg/openbox/* ~/.config/openbox/
 cp rc.xml autostart ~/.config/openbox/
-systemctl --user --now enable wireplumber.service
 cp x.xinitrc ~/.xinitrc
 cp config.rasi ~/.config/rofi/
-mkdir ~/pixmaps
 cp angel.jpg ~/pixmaps/
-feh --bg-scale ~/pixmaps/angel.jpg
 cp x.conkyrc ~/.conkyrc
 cp x.keys.txt ~/.keys.txt
 cp x.i3lock.png ~/.i3lock.png
+chmod +x ~/.config/openbox/autostart
+feh --bg-scale ~/pixmaps/angel.jpg
 
 cat done.txt
 
