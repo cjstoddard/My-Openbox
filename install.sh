@@ -4,7 +4,7 @@ sudo apt install xorg xbacklight xbindkeys xvkbd xinit xinput xserver-xorg-input
 hsetroot i3lock libnotify-bin libxcb-xinerama0 lxappearance lximage-qt menu picom rofi scrot tint2 volumeicon-alsa \
 xfce4-power-manager alsa-utils fonts-dejavu fonts-firacode fonts-font-awesome fonts-liberation2 fonts-jetbrains-mono \
 gtk2-engines-murrine gtk2-engines-pixbuf network-manager network-manager-gnome papirus-icon-theme pavucontrol pipewire-audio \
-qt5-style-plugins rox-filer conky lightdm -y
+qt5-style-plugins pcmanfm conky lightdm -y
 
 ## Please review the next line. These are the applications I use regularly or reasonable replacements.
 ## For instance, my prefernce for terminal software Tilix, if you prefer a different terminal, by all

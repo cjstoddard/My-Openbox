@@ -306,7 +306,7 @@
 
 <!-- Launch rox-filer when windows-f is pressed -->
   <keybind key="W-f">
-    <action name="Execute"><command>rox-filer</command></action>
+    <action name="Execute"><command>pcmanfm</command></action>
   </keybind>
 <!-- Launch rofi when windows-m is pressed -->
   <keybind key="W-m">

@@ -1,7 +1,7 @@
 -------------------------------------
 Keybindings
 -------------------------------------
-ROX-filer     windows-f(ile manager)
+PCManFM     windows-f(ile manager)
 Rofi          windows-m(enu)
 Firefox-ESR   windows-w(eb)
 Tilix         windows-t(erminal)
