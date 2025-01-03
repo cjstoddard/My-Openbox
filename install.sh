@@ -7,7 +7,7 @@ gtk2-engines-murrine gtk2-engines-pixbuf network-manager network-manager-gnome p
 qt5-style-plugins pcmanfm conky lightdm -y
 
 ## Please review the next line. These are the applications I use regularly or reasonable replacements.
-## For instance, my prefernce for terminal software Tilix, if you prefer a different terminal, by all
+## For instance, my prefernce for terminal software Kitty, if you prefer a different terminal, by all
 ## means replace it. If you don't like emacs, install neovim, whatever works for you.
 
 sudo apt install firefox-esr audacious thunderbird vlc emacs abiword gnumeric atril pluma mate-calc kitty inkscape -y
