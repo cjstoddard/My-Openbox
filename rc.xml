@@ -318,7 +318,7 @@
   </keybind>
 <!-- Launch tilix when windows-t is pressed -->
   <keybind key="W-t">
-    <action name="Execute"><command>tilix</command></action>
+    <action name="Execute"><command>kitty -o font_size=14</command></action>
   </keybind>
 <!-- Launch thunderbird when windows-e is pressed -->
   <keybind key="W-e">

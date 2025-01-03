@@ -1,10 +1,10 @@
 -------------------------------------
 Keybindings
 -------------------------------------
-PCManFM     windows-f(ile manager)
+PCManFM       windows-f(ile manager)
 Rofi          windows-m(enu)
 Firefox-ESR   windows-w(eb)
-Tilix         windows-t(erminal)
+Kitty         windows-t(erminal)
 Thunderbird   windows-e(mail)
 Audacious     windows-a(udio)
 VLC           windows-v(ideo)

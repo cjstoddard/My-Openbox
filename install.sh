@@ -10,7 +10,7 @@ qt5-style-plugins pcmanfm conky lightdm -y
 ## For instance, my prefernce for terminal software Tilix, if you prefer a different terminal, by all
 ## means replace it. If you don't like emacs, install neovim, whatever works for you.
 
-sudo apt install firefox-esr audacious thunderbird vlc emacs abiword gnumeric atril pluma mate-calc tilix inkscape -y
+sudo apt install firefox-esr audacious thunderbird vlc emacs abiword gnumeric atril pluma mate-calc kitty inkscape -y
 
 sudo systemctl enable lightdm
 sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
