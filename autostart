@@ -16,11 +16,11 @@
 #
 #xfce-mcs-manager &
 
-hsetroot -solid "#000000"
+hsetroot -solid "#333333"
 (sleep 1; ~/.fehbg) &
 xfce4-power-manager &
 dunst -config ~/.config/dunst/dunstrc &
 tint2 &
 (sleep 5; volumeicon) &
 nm-applet &
-(sleep 5 && conky -c .conkyrc) &
+(sleep 1 && conky -c .conkyrc) &
